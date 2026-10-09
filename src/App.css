@@ -1,0 +1,22 @@
+#root {
+  min-height: 100vh;
+}
+
+.technology-spotlight-fallback {
+  min-height: clamp(680px, 58vw, 760px);
+  background:
+    radial-gradient(ellipse at 78% 47%, rgba(194, 138, 91, 0.09), transparent 38%),
+    linear-gradient(125deg, #0b0a09, #100e0c 54%, #090909);
+}
+
+@media (max-width: 850px) {
+  .technology-spotlight-fallback {
+    min-height: 760px;
+  }
+}
+
+@media (max-width: 520px) {
+  .technology-spotlight-fallback {
+    min-height: 700px;
+  }
+}

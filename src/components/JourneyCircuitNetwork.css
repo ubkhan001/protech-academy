@@ -1,0 +1,30 @@
+.journey-circuit-network {
+  position: absolute;
+  z-index: 3;
+  inset: 0 auto auto 0;
+  display: block;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.ai-journey {
+  position: relative;
+  isolation: isolate;
+}
+
+.technology-spotlight-container,
+.courses-container {
+  position: relative;
+  z-index: 4;
+}
+
+.admission-container {
+  z-index: 4;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .robot-skull-upper,
+  .robot-side-panel {
+    will-change: auto;
+  }
+}

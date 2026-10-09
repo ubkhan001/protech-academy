@@ -1,0 +1,162 @@
+.brand-logo {
+  display: flex;
+  width: max-content;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #ff8c00;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.brand-logo-mark {
+  position: relative;
+  display: block;
+  width: 132px;
+  height: 132px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 5px solid #ff8c00;
+  background: transparent;
+}
+
+.brand-logo-p,
+.brand-logo-t {
+  position: absolute;
+  top: 50%;
+  color: #ff8c00;
+  font-family: Impact, "Arial Black", sans-serif;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1;
+  transform: translateY(-52%);
+}
+
+.brand-logo-p {
+  left: 15px;
+  z-index: 1;
+}
+
+.brand-logo-t {
+  left: 55px;
+}
+
+.brand-logo-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.brand-logo-name {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  white-space: nowrap;
+}
+
+.brand-logo-accent {
+  color: #ff8c00;
+}
+
+.brand-logo-academy {
+  margin-top: 6px;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-indent: 7px;
+  text-transform: uppercase;
+}
+
+.brand-logo-tagline {
+  margin-top: 12px;
+  color: #ff8c00;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.brand-logo--navbar {
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  text-align: start;
+}
+
+.brand-logo--navbar .brand-logo-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+
+.brand-logo--navbar .brand-logo-p,
+.brand-logo--navbar .brand-logo-t {
+  top: 50%;
+  font-size: 27px;
+  transform: translateY(-52%);
+}
+
+.brand-logo--navbar .brand-logo-p {
+  left: 4px;
+}
+
+.brand-logo--navbar .brand-logo-t {
+  left: 15px;
+}
+
+.brand-logo--navbar .brand-logo-copy {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.brand-logo--navbar .brand-logo-name {
+  font-size: 15px;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+}
+
+.brand-logo--navbar .brand-logo-academy {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+  text-indent: 0;
+}
+
+.brand-logo--navbar .brand-logo-tagline {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .brand-logo:not(.brand-logo--navbar) .brand-logo-mark {
+    width: 108px;
+    height: 108px;
+  }
+
+  .brand-logo:not(.brand-logo--navbar) .brand-logo-p,
+  .brand-logo:not(.brand-logo--navbar) .brand-logo-t {
+    font-size: 80px;
+  }
+
+  .brand-logo:not(.brand-logo--navbar) .brand-logo-p {
+    left: 12px;
+  }
+
+  .brand-logo:not(.brand-logo--navbar) .brand-logo-t {
+    left: 45px;
+  }
+
+  .brand-logo:not(.brand-logo--navbar) .brand-logo-name {
+    font-size: 27px;
+  }
+
+  .brand-logo:not(.brand-logo--navbar) .brand-logo-tagline {
+    font-size: 7px;
+    letter-spacing: 1.3px;
+  }
+}

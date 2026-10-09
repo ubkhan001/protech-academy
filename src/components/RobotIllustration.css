@@ -1,0 +1,131 @@
+.ai-robot-stage {
+  position: relative;
+  display: grid;
+  width: min(100%, 500px);
+  min-width: 0;
+  place-items: center;
+  isolation: isolate;
+  perspective: 1000px;
+}
+
+.ai-robot {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  overflow: visible;
+  filter: drop-shadow(0 28px 35px rgba(0, 0, 0, 0.48));
+}
+
+.robot-head {
+  transform-box: view-box;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.robot-skull-upper {
+  transform-box: view-box;
+  transform-origin: 300px 195px;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.robot-side-panel {
+  transform-box: view-box;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.robot-brain {
+  transform-box: view-box;
+  transform-origin: 300px 155px;
+  filter: drop-shadow(0 0 12px rgba(242, 140, 40, 0.26));
+}
+
+.robot-stage-glow {
+  position: absolute;
+  z-index: -1;
+  top: 16%;
+  left: 50%;
+  width: 72%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(242, 140, 40, 0.2), rgba(194, 138, 91, 0.07) 42%, transparent 72%);
+  filter: blur(22px);
+  transform: translateX(-50%);
+}
+
+.robot-stage-ring {
+  position: absolute;
+  z-index: -1;
+  border: 1px solid rgba(242, 140, 40, 0.17);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.robot-stage-ring-one {
+  top: 13%;
+  left: 11%;
+  width: 78%;
+  aspect-ratio: 1;
+}
+
+.robot-stage-ring-two {
+  top: 23%;
+  left: 21%;
+  width: 58%;
+  aspect-ratio: 1;
+  border-color: rgba(245, 222, 199, 0.11);
+}
+
+.robot-status {
+  position: absolute;
+  z-index: 2;
+  right: 2%;
+  bottom: 15%;
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  gap: 9px;
+  padding: 0 13px;
+  border: 1px solid rgba(230, 186, 145, 0.22);
+  border-radius: 999px;
+  background: rgba(13, 13, 13, 0.84);
+  color: #d7b391;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  backdrop-filter: blur(12px);
+}
+
+.robot-status span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--brand-orange-bright);
+  box-shadow: 0 0 11px rgba(242, 140, 40, 0.72);
+}
+
+@media (max-width: 760px) {
+  .ai-robot-stage {
+    width: min(100%, 400px);
+    margin: 0 auto;
+  }
+
+  .robot-status {
+    right: 1%;
+    bottom: 13%;
+  }
+}
+
+@media (max-width: 420px) {
+  .ai-robot-stage {
+    width: min(100%, 340px);
+  }
+
+  .robot-status {
+    min-height: 34px;
+    padding: 0 10px;
+    font-size: 8px;
+  }
+}
