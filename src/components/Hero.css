@@ -149,7 +149,7 @@
     background 0.2s ease,
     color 0.2s ease,
     box-shadow 0.2s ease,
-    border-color 0.2s ease;
+    transform 0.2s ease;
 }
 
 .hero-primary-button::before {
@@ -433,17 +433,6 @@
     padding-left: 5vw;
   }
 
-  @media (max-width: 900px) and (min-width: 761px) {
-    .hero-layout {
-      grid-template-columns: minmax(0, 1fr) minmax(270px, 0.82fr);
-      gap: 26px;
-    }
-
-    .hero h1 {
-      font-size: clamp(42px, 5.6vw, 58px);
-    }
-  }
-
   .hero-layout {
     grid-template-columns: minmax(0, 1fr) minmax(310px, 0.82fr);
     gap: 34px;
@@ -459,6 +448,17 @@
 
   .hero-float-card {
     left: -5px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 761px) {
+  .hero-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(270px, 0.82fr);
+    gap: 26px;
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 5.6vw, 58px);
   }
 }
 

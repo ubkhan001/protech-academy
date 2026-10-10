@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { useEffect, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.jpg";
 import { useLanguage } from "./LanguageContext";
 
@@ -24,6 +24,7 @@ const languages = [
 
 function Navbar() {
   const location = useLocation();
+  const navigate = useNavigate();
   const { language, setLanguage, t } = useLanguage();
   const [languageOpen, setLanguageOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,7 +46,7 @@ function Navbar() {
       return undefined;
     }
 
-    const sections = ["home", "about", "courses", "contact"]
+    const sections = ["home", "about", "courses", "admission", "contact"]
       .map((id) => document.getElementById(id))
       .filter(Boolean);
     const observer = new IntersectionObserver(
@@ -71,7 +72,7 @@ function Navbar() {
     setMenuOpen(false);
 
     if (location.pathname !== "/") {
-      window.location.href = `/#${section}`;
+      navigate(`/#${section}`);
       return;
     }
 
@@ -131,7 +132,15 @@ function Navbar() {
         >
           {t.courses}
         </button>
-        <button type="button" onClick={() => goToSection("admission")}>
+        <button
+          type="button"
+          aria-current={
+            location.pathname === "/" && activeSection === "admission"
+              ? "location"
+              : undefined
+          }
+          onClick={() => goToSection("admission")}
+        >
           {t.membership}
         </button>
         <NavLink to="/teachers" onClick={closeMenu}>

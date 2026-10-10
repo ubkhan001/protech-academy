@@ -119,10 +119,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
             <div className="form-row">
 
               <div className="form-group">
-                <label>{t.fullName}</label>
+                <label htmlFor="admission-full-name">{t.fullName}</label>
 
                 <input
                   type="text"
+                  id="admission-full-name"
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleChange}
@@ -132,10 +133,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
               </div>
 
               <div className="form-group">
-                <label>{t.fatherName}</label>
+                <label htmlFor="admission-father-name">{t.fatherName}</label>
 
                 <input
                   type="text"
+                  id="admission-father-name"
                   name="fatherName"
                   value={formData.fatherName}
                   onChange={handleChange}
@@ -149,10 +151,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
             <div className="form-row">
 
               <div className="form-group">
-                <label>{t.phoneNumber}</label>
+                <label htmlFor="admission-phone">{t.phoneNumber}</label>
 
                 <input
                   type="tel"
+                  id="admission-phone"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
@@ -162,10 +165,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
               </div>
 
               <div className="form-group">
-                <label>{t.emailAddress}</label>
+                <label htmlFor="admission-email">{t.emailAddress}</label>
 
                 <input
                   type="email"
+                  id="admission-email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
@@ -179,10 +183,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
             <div className="form-row">
 
               <div className="form-group">
-                <label>{t.age}</label>
+                <label htmlFor="admission-age">{t.age}</label>
 
                 <input
                   type="number"
+                  id="admission-age"
                   name="age"
                   value={formData.age}
                   onChange={handleChange}
@@ -192,10 +197,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
               </div>
 
               <div className="form-group">
-                <label>{t.education}</label>
+                <label htmlFor="admission-education">{t.education}</label>
 
                 <input
                   type="text"
+                  id="admission-education"
                   name="education"
                   value={formData.education}
                   onChange={handleChange}
@@ -207,9 +213,10 @@ function Admission({ selectedCourse, setSelectedCourse }) {
             </div>
 
             <div className="form-group">
-              <label>{t.selectCourse}</label>
+              <label htmlFor="admission-course">{t.selectCourse}</label>
 
               <select
+                id="admission-course"
                 value={selectedCourse}
                 onChange={(e) => setSelectedCourse(e.target.value)}
                 required
@@ -251,10 +258,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
             </div>
 
             <div className="form-group">
-              <label>{t.address}</label>
+              <label htmlFor="admission-address">{t.address}</label>
 
               <input
                 type="text"
+                id="admission-address"
                 name="address"
                 value={formData.address}
                 onChange={handleChange}
@@ -264,10 +272,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
             </div>
 
             <div className="form-group">
-              <label>{t.yourMessage}</label>
+              <label htmlFor="admission-message">{t.yourMessage}</label>
 
               <textarea
                 name="message"
+                id="admission-message"
                 rows="4"
                 value={formData.message}
                 onChange={handleChange}

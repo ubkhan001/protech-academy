@@ -1,5 +1,5 @@
 import "./App.css";
-import { lazy, Suspense, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import {
   LazyMotion,
@@ -88,6 +88,19 @@ function Home() {
 function App() {
   const location = useLocation();
   const shouldReduceMotion = useReducedMotion();
+
+  useEffect(() => {
+    if (!location.hash) return undefined;
+
+    const section = decodeURIComponent(location.hash.slice(1));
+    const frame = window.requestAnimationFrame(() => {
+      document
+        .getElementById(section)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [location.hash, location.pathname]);
 
   return (
     <LazyMotion features={domAnimation}>

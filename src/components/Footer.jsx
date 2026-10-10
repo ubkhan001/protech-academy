@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./Footer.css";
 import { useLanguage } from "./LanguageContext";
 
@@ -6,11 +6,12 @@ const currentYear = new Date().getFullYear();
 
 function Footer() {
   const location = useLocation();
+  const navigate = useNavigate();
   const { t } = useLanguage();
 
   const goToSection = (section) => {
     if (location.pathname !== "/") {
-      window.location.href = `/#${section}`;
+      navigate(`/#${section}`);
       return;
     }
 
