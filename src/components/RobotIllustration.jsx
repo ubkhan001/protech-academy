@@ -1,7 +1,9 @@
 import { m, useReducedMotion, useSpring, useTransform } from "framer-motion";
 import "./RobotIllustration.css";
+import { useLanguage } from "./LanguageContext";
 
 function RobotIllustration({ scrollProgress }) {
+  const { t } = useLanguage();
   const shouldReduceMotion = useReducedMotion();
   const easedProgress = useSpring(scrollProgress, {
     damping: 30,
@@ -74,7 +76,7 @@ function RobotIllustration({ scrollProgress }) {
         className="ai-robot"
         viewBox="0 0 600 640"
         role="img"
-        aria-label="A futuristic ProTech Academy AI robot"
+        aria-label={t.robotDescription}
         focusable="false"
       >
         <defs>
@@ -384,8 +386,9 @@ function RobotIllustration({ scrollProgress }) {
       </svg>
 
       <div className="robot-status" aria-hidden="true">
-        <span />
-        PROTECH AI · ONLINE
+        <span className="robot-status-indicator" />
+        <span className="robot-status-label">ARTIFICIAL INTELLIGENCE</span>
+        <span className="robot-status-badge">(AI)</span>
       </div>
     </div>
   );

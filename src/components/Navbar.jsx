@@ -3,10 +3,12 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.jpg";
 import { useLanguage } from "./LanguageContext";
-
 const languages = [
+  
   { code: "en", label: "EN", name: "English" },
   { code: "ur", label: "UR", name: "اردو" },
+  { code: "ps", label: "PS", name: "پښتو" },
+  { code: "pa", label: "PA", name: "ਪੰਜਾਬੀ" },
   { code: "ar", label: "AR", name: "العربية" },
   { code: "hi", label: "HI", name: "हिन्दी" },
   { code: "bn", label: "BN", name: "বাংলা" },
@@ -86,7 +88,7 @@ function Navbar() {
   return (
     <nav
       className={`navbar${scrolled ? " navbar-scrolled" : ""}`}
-      aria-label="Main navigation"
+      aria-label={t.mainNavigation}
     >
       <Link className="nav-logo" to="/" onClick={closeMenu}>
         <span className="nav-logo-image">
@@ -132,17 +134,9 @@ function Navbar() {
         >
           {t.courses}
         </button>
-        <button
-          type="button"
-          aria-current={
-            location.pathname === "/" && activeSection === "admission"
-              ? "location"
-              : undefined
-          }
-          onClick={() => goToSection("admission")}
-        >
+        <NavLink to="/membership" onClick={closeMenu}>
           {t.membership}
-        </button>
+        </NavLink>
         <NavLink to="/teachers" onClick={closeMenu}>
           {t.teachers}
         </NavLink>
@@ -168,7 +162,7 @@ function Navbar() {
             className="language"
             type="button"
             onClick={() => setLanguageOpen((open) => !open)}
-            aria-label={`Select language, current language ${currentLanguage.name}`}
+            aria-label={`${t.selectLanguage}, ${t.currentLanguage}: ${currentLanguage.name}`}
             aria-expanded={languageOpen}
             aria-controls="language-menu"
           >
@@ -220,7 +214,7 @@ function Navbar() {
         <button
           type="button"
           className={`nav-toggle${menuOpen ? " nav-toggle-open" : ""}`}
-          aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={menuOpen ? t.closeNavigation : t.openNavigation}
           aria-expanded={menuOpen}
           aria-controls="main-navigation-links"
           onClick={() => setMenuOpen((open) => !open)}

@@ -18,6 +18,7 @@ import Facilities from "./components/Facilities";
 import Courses from "./components/Courses";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Membership from "./components/Membership";
 
 const JourneyCircuitNetwork = lazy(
   () => import("./components/JourneyCircuitNetwork")
@@ -27,7 +28,10 @@ const TechnologySpotlight = lazy(
 );
 
 function Home() {
-  const [selectedCourse, setSelectedCourse] = useState("");
+  const location = useLocation();
+  const [selectedCourse, setSelectedCourse] = useState(
+    () => new URLSearchParams(location.search).get("course") || ""
+  );
   const journeyRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: journeyRef,
@@ -114,6 +118,7 @@ function App() {
       >
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/membership" element={<Membership />} />
           <Route path="/teachers" element={<Teachers />} />
           <Route path="/facilities" element={<Facilities />} />
         </Routes>

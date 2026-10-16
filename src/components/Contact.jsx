@@ -164,8 +164,8 @@ function Contact() {
                   </svg>
                 </div>
                 <div className="contact-detail">
-                  <h3>Office Hours</h3>
-                  <p>Contact us for current timings.</p>
+                  <h3>{t.officeHours}</h3>
+                  <p>{t.contactForTimings}</p>
                 </div>
                 <span className="contact-card-arrow" aria-hidden="true">
                   ↗
@@ -190,14 +190,14 @@ function Contact() {
                 <span className="contact-map-indicator" aria-hidden="true" />
                 <div>
                   <strong>{t.ourLocation}</strong>
-                  <span>ProTech Academy · Karachi</span>
+                  <span>{t.mapLocation}</span>
                 </div>
               </div>
 
               <div className="contact-map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.2310721055414!2d66.99535837443189!3d24.924196942706004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fd0d0aee0a7%3A0xcada24c92072fd3f!2sProtech%20Academy!5e0!3m2!1sen!2s!4v1791385743886!5m2!1sen!2s"
-                  title="ProTech Academy Location"
+                  title={t.mapTitle}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="strict-origin-when-cross-origin"

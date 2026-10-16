@@ -30,24 +30,24 @@ function Admission({ selectedCourse, setSelectedCourse }) {
     const whatsappNumber = "923404988954";
 
     const whatsappMessage = `
-*PROTECH ACADEMY - ADMISSION FORM*
+*${t.admissionAcademy} - ${t.admissionForm}*
 
-*Full Name:* ${formData.fullName}
-*Father Name:* ${formData.fatherName}
-*Phone Number:* ${formData.phone}
-*Email:* ${formData.email}
-*Age:* ${formData.age}
-*Education:* ${formData.education}
-*Selected Course:* ${selectedCourse}
-*Address:* ${formData.address}
-*Message:* ${formData.message}
+*${t.fullName}:* ${formData.fullName}
+*${t.fatherName}:* ${formData.fatherName}
+*${t.phoneNumber}:* ${formData.phone}
+*${t.emailAddress}:* ${formData.email}
+*${t.age}:* ${formData.age}
+*${t.education}:* ${formData.education}
+*${t.selectCourse}:* ${selectedCourse}
+*${t.address}:* ${formData.address}
+*${t.yourMessage}:* ${formData.message}
 `;
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
-    window.open(whatsappURL, "_blank");
+    window.open(whatsappURL, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -114,7 +114,11 @@ function Admission({ selectedCourse, setSelectedCourse }) {
             <span className="form-number">01</span>
           </div>
 
-          <form className="admission-form" onSubmit={handleSubmit}>
+          <form
+            className="admission-form"
+            id="admission-enrollment-form"
+            onSubmit={handleSubmit}
+          >
 
             <div className="form-row">
 
@@ -159,7 +163,7 @@ function Admission({ selectedCourse, setSelectedCourse }) {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="03XX-XXXXXXX"
+                  placeholder={t.phonePlaceholder}
                   required
                 />
               </div>
@@ -173,7 +177,7 @@ function Admission({ selectedCourse, setSelectedCourse }) {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="your@email.com"
+                  placeholder={t.emailPlaceholder}
                   required
                 />
               </div>
@@ -229,6 +233,9 @@ function Admission({ selectedCourse, setSelectedCourse }) {
                 </option>
                 <option value="Graphic Designing">
                   {t.courseGraphicDesigning}
+                </option>
+                <option value="Website Development">
+                  {t.courseWebsiteDevelopment}
                 </option>
                 <option value="Full Stack Website Development">
                   {t.courseFullStack}

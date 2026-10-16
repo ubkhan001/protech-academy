@@ -29,11 +29,11 @@ function Footer() {
           </Link>
           <p>{t.heroDescription}</p>
           <span className="footer-tagline">
-            INSTITUTE OF PROFESSIONAL GROWTH
+            {t.professionalGrowthTagline}
           </span>
         </div>
 
-        <nav className="footer-links" aria-label="Footer navigation">
+        <nav className="footer-links" aria-label={t.footerNavigation}>
           <h2>{t.aboutLabel}</h2>
           <button type="button" onClick={() => goToSection("home")}>
             {t.home}
@@ -46,6 +46,7 @@ function Footer() {
           </button>
           <Link to="/teachers">{t.teachers}</Link>
           <Link to="/facilities">{t.facilities}</Link>
+          <Link to="/membership">{t.membership}</Link>
           <button type="button" onClick={() => goToSection("contact")}>
             {t.contact}
           </button>

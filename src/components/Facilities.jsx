@@ -32,9 +32,9 @@ function Facilities() {
       description: t.practicalTrainingFacilityDesc,
     },
     {
-      icon: "LANG",
-      title: t.languageLearning,
-      description: t.languageLearningDesc,
+      icon: "AC",
+      title: t.airConditionedRooms,
+      description: t.airConditionedRoomsDesc,
     },
   ];
 

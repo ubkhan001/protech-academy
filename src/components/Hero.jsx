@@ -1,3 +1,4 @@
+
 import "./Hero.css";
 import academyPhoto from "../assets/hhh.jpg";
 import { useLanguage } from "./LanguageContext";
@@ -77,7 +78,7 @@ function Hero() {
             <img
               className="hero-image"
               src={academyPhoto}
-              alt="ProTech Academy campus entrance"
+              alt={t.heroImageAlt}
             />
             <div className="hero-image-shade" />
             <div className="hero-image-caption">

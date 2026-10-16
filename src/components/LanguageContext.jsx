@@ -14,9 +14,9 @@ const translations = {
     joinNow: "Join Now",
 
     welcome: "WELCOME TO PROTECH ACADEMY",
-    master: "MASTER",
-    technology: "TECHNOLOGY",
-    buildFuture: "BUILD YOUR FUTURE",
+    master: "Empowering the",
+    technology: "Digital",
+    buildFuture: "World",
     heroDescription:
       "Learn modern technology skills through practical training, expert guidance and career-focused courses designed for your success.",
     exploreCourses: "Explore Courses",
@@ -153,9 +153,9 @@ const translations = {
     practicalTrainingFacility: "Practical Training",
     practicalTrainingFacilityDesc:
       "Work on practical projects and develop real-world skills for your professional career.",
-    languageLearning: "Language Learning",
-    languageLearningDesc:
-      "Improve your communication and language skills through structured learning and practice.",
+    airConditionedRooms: "Air-Conditioned Rooms",
+    airConditionedRoomsDesc:
+      "Learn in cool, comfortable rooms designed to support focus and productive study.",
 
     getInTouch: "GET IN TOUCH",
     us: "US",
@@ -167,6 +167,412 @@ const translations = {
     chatWhatsApp: "Chat with us on WhatsApp",
     email: "Email",
     getDirections: "GET DIRECTIONS",
+    courseWebsiteDevelopment: "Website Development",
+    officeHours: "Office Hours",
+    contactForTimings: "Contact us for current timings.",
+    professionalGrowthTagline: "INSTITUTE OF PROFESSIONAL GROWTH",
+    mapTitle: "ProTech Academy Location",
+    mapLocation: "ProTech Academy · Karachi",
+    heroImageAlt: "ProTech Academy campus entrance",
+    footerNavigation: "Footer navigation",
+    robotDescription: "A futuristic ProTech Academy AI robot",
+    membershipEyebrow: "MEMBERSHIP",
+    membershipTitle: "Invest in your",
+    membershipTitleAccent: "future",
+    courseCitFullName: "Certificate in Information Technology",
+    membershipDescription:
+      "Explore our programs and choose the course that moves your career forward.",
+    admissionFee: "Admission Fee",
+    monthlyFee: "Monthly Fee",
+    courseFee: "Course Fee",
+    courseDuration: "COURSE DURATION",
+    courseDuration40Days: "40 days",
+    enrollNow: "Enroll Now",
+    feeNotSpecified: "Not specified",
+    notApplicable: "Not applicable",
+    mainNavigation: "Main navigation",
+    selectLanguage: "Select language",
+    currentLanguage: "Current language",
+    openNavigation: "Open navigation menu",
+    closeNavigation: "Close navigation menu",
+  },
+
+  ps: {
+    home: "کور",
+    about: "زموږ په اړه",
+    courses: "کورسونه",
+    membership: "غړیتوب",
+    teachers: "ښوونکي",
+    facilities: "اسانتیاوې",
+    contact: "اړیکه",
+    joinNow: "همدا اوس ګډون وکړئ",
+    welcome: "پروټیک اکاډمۍ ته ښه راغلاست",
+    master: "مهارت ترلاسه کړئ",
+    technology: "ټکنالوژي",
+    buildFuture: "خپل راتلونکی جوړ کړئ",
+    heroDescription:
+      "د عملي روزنې، د متخصصینو لارښوونې او ستاسو د بریا لپاره د مسلک‌محورو کورسونو له لارې د ټکنالوژۍ نوې مهارتونه زده کړئ.",
+    exploreCourses: "کورسونه وګورئ",
+    coursesCount: "کورسونه",
+    expertTeachers: "متخصص ښوونکي",
+    practical: "عملي روزنه",
+    startLearning: "نن زده‌کړه پیل کړئ",
+
+    aboutLabel: "د پروټیک اکاډمۍ په اړه",
+    aboutWhere: "چېرې چې",
+    aboutSkills: "مهارتونه",
+    aboutMeet: "له",
+    aboutOpportunity: "فرصتونو سره یوځای کېږي",
+    aboutIntro:
+      "موږ یوازې ټکنالوژي نه ورزده کوو؛ بلکې هغه مهارتونه، باور او تجربه رامنځته کوو چې زده‌کوونکي یې په نننۍ ډیجیټلي نړۍ کې د بریا لپاره اړتیا لري.",
+    aboutDescription:
+      "پروټیک اکاډمۍ د هغو زده‌کوونکو لپاره عملي او د مسلک‌محوره روزنه برابروي چې غواړي د ټکنالوژۍ شوق په رښتینو مهارتونو بدل کړي.",
+    discoverMore: "نور معلومات",
+    studentsTrained: "روزل شوي زده‌کوونکي",
+    learnBuildGrow: "زده کړئ. جوړ کړئ. پرمختګ وکړئ.",
+    aboutCardDescription: "د ټکنالوژۍ د راتلونکو متخصصینو لپاره عملي زده‌کړه.",
+    professionalCourses: "مسلکي کورسونه",
+    students: "زده‌کوونکي",
+    expertTrainers: "متخصص روزونکي",
+    practicalLearning: "عملي زده‌کړه",
+
+    whatWeTeach: "موږ څه ورزده کوو",
+    our: "زموږ",
+    coursesTitle: "کورسونه",
+    coursesDescription:
+      "زده‌کوونکو او راتلونکو مسلکي کسانو ته د صنعت له اړتیاوو سره سم په خپلو کورسونو کې عملي او مسلکي مهارتونه ورزده کوو.",
+    learnMore: "نور معلومات",
+    courseCit: "C.I.T",
+    courseCitDesc:
+      "د خپل مسلکي سفر لپاره د کمپیوټر اړین مهارتونه، د دفتر پروګرامونه او ډیجیټلي بنسټونه زده کړئ.",
+    courseDigitalMarketing: "ډیجیټل بازارموندنه",
+    courseDigitalMarketingDesc:
+      "د ډیجیټل بازارموندنې نوې لارې، د ټولنیزو رسنیو بازارموندنه، SEO او د انلاین سوداګرۍ وده زده کړئ.",
+    courseGraphicDesigning: "ګرافیک ډیزاین",
+    courseGraphicDesigningDesc:
+      "د ډیجیټلي ګرافیک او بصري منځپانګې لپاره د تخلیقي ډیزاین مهارتونه او مسلکي لارې زده کړئ.",
+    courseFullStack: "د وېب‌پاڼې بشپړ پراختیا",
+    courseFullStackDesc:
+      "د بشپړو او نويو وېب‌پاڼو او وېب اپلېکېشنونو جوړولو لپاره مخکینۍ او شاتنۍ ټکنالوژۍ زده کړئ.",
+    courseEcommerce: "برېښنايي سوداګري",
+    courseEcommerceDesc:
+      "د انلاین پلورنځیو جوړول، اداره کول او پراخول او د نوې برېښنايي سوداګرۍ لارې زده کړئ.",
+    courseShopify: "شوپفای",
+    courseShopifyDesc:
+      "د شوپفای په وسیله د مسلکي انلاین پلورنځیو جوړول او اداره کول زده کړئ.",
+    courseFrontend: "د وېب مخکینۍ پراختیا",
+    courseFrontendDesc:
+      "HTML، CSS، JavaScript او نوې لارې زده کړئ، څو ښکلې او ځواب‌ویونکې وېب‌پاڼې جوړې کړئ.",
+    courseBackend: "د وېب شاتنۍ پراختیا",
+    courseBackendDesc:
+      "د ځواکمنو وېب اپلېکېشنونو لپاره د سرور پراختیا، ډیټابېسونه او اړینې ټکنالوژۍ زده کړئ.",
+    courseAI: "مصنوعي ځیرکتیا",
+    courseAIDesc:
+      "د مصنوعي ځیرکتیا مفاهیم وپېژنئ او زده کړئ چې دا نوې ټکنالوژي په واقعي نړۍ کې څنګه کارېږي.",
+    courseEnglish: "انګلیسي ژبه",
+    courseEnglishDesc:
+      "د انګلیسي ویلو، اړیکو، لغتونو او مسلکي لیکلو مهارتونه پیاوړي کړئ.",
+    courseCyberSecurity: "سایبري امنیت",
+    courseCyberSecurityDesc:
+      "د ډیجیټلي سیسټمونو او معلوماتو د ساتنې لپاره د سایبري امنیت بنسټونه او انلاین خوندیتوب زده کړئ.",
+
+    admissionAcademy: "پروټیک اکاډمۍ",
+    startYour: "خپل",
+    techJourney: "د ټکنالوژۍ سفر پیل کړئ",
+    admissionIntro:
+      "د خپل مسلک پر لور بل ګام واخلئ. له پروټیک اکاډمۍ سره یوځای شئ او له تجربه‌لرونکو ښوونکو عملي مهارتونه زده کړئ.",
+    practicalTraining: "عملي روزنه",
+    practicalTrainingDesc: "د رښتینو پروژو او عملي تمرین له لارې زده‌کړه وکړئ.",
+    expertInstructors: "متخصص ښوونکي",
+    expertInstructorsDesc: "له تجربه‌لرونکو ټکنالوژۍ متخصصینو زده‌کړه وکړئ.",
+    careerFocused: "پر مسلک تمرکز",
+    careerFocusedDesc: "د خپل مسلکي پرمختګ لپاره ګټور مهارتونه جوړ کړئ.",
+    admissionsOpen: "د نوم‌لیکنې بهیر اوس پرانیستی دی",
+    admissionForm: "د نوم‌لیکنې فورمه",
+    applyNow: "همدا اوس غوښتنلیک ورکړئ",
+    fullName: "بشپړ نوم",
+    fullNamePlaceholder: "خپل بشپړ نوم ولیکئ",
+    fatherName: "د پلار نوم",
+    fatherNamePlaceholder: "د پلار نوم ولیکئ",
+    phoneNumber: "د ټیلیفون شمېره",
+    phonePlaceholder: "د ټیلیفون شمېره",
+    emailAddress: "برېښنالیک",
+    emailPlaceholder: "ستاسو برېښنالیک",
+    age: "عمر",
+    agePlaceholder: "خپل عمر ولیکئ",
+    education: "زده‌کړې",
+    educationPlaceholder: "خپل تعلیمي وړتیا ولیکئ",
+    selectCourse: "کورس وټاکئ",
+    chooseCourse: "خپل کورس وټاکئ",
+    address: "پته",
+    addressPlaceholder: "خپله بشپړه پته ولیکئ",
+    yourMessage: "ستاسو پیغام",
+    messagePlaceholder: "د زده‌کړې د موخو په اړه مو راته ووایئ...",
+    submitForm: "فورمه ولېږئ",
+    formSecurity: "ستاسو معلومات به شخصي او خوندي وساتل شي.",
+
+    ourInstructors: "زموږ ښوونکي",
+    meetOur: "زموږ",
+    experts: "له متخصصینو سره پېژندنه",
+    teachersDescription:
+      "له هغو تجربه‌لرونکو ښوونکو زده‌کړه وکړئ چې د زده‌کوونکو د عملي او مسلکي مهارتونو په جوړولو کې مرسته کوي.",
+    graphicDesigner: "ګرافیک ډیزاینر",
+    websiteDeveloper: "د وېب‌پاڼې پراختیاکوونکی",
+    fullStackDeveloper: "د بشپړې وېب پراختیاکوونکی",
+    digitalMarketing: "ډیجیټل بازارموندنه",
+    digitalMarketingExpert: "د ډیجیټل بازارموندنې متخصص",
+
+    whyChooseUs: "ولې موږ غوره کړئ",
+    facilitiesTitle: "اسانتیاوې",
+    facilitiesDescription:
+      "موږ د نويو سرچینو، عملي روزنې او متخصصینو لارښوونې سره د زده‌کړې مسلکي چاپېریال برابروو.",
+    modernComputerLab: "د کمپیوټر نوې لابراتوار",
+    modernComputerLabDesc:
+      "په مسلکي او ارام چاپېریال کې د نويو کمپیوټرونو په کارولو زده‌کړه او تمرین وکړئ.",
+    scholarship: "بورس",
+    scholarshipDesc:
+      "د بورسونو له لارې باکیفیته زده‌کړې ته لاسرسی ومومئ. موږ له وړ او مستحقو زده‌کوونکو سره د بریالي راتلونکي په جوړولو کې مرسته کوو.",
+    comfortableClassrooms: "ارام ټولګي",
+    comfortableClassroomsDesc:
+      "د متمرکزې زده‌کړې او د زده‌کوونکو د ښې اړیکې لپاره پاک او ارام ټولګي.",
+    expertInstructorsFacility: "متخصص ښوونکي",
+    expertInstructorsFacilityDesc:
+      "له تجربه‌لرونکو ښوونکو زده‌کړه وکړئ چې ستاسو د زده‌کړې په سفر کې لارښوونه کوي.",
+    practicalTrainingFacility: "عملي روزنه",
+    practicalTrainingFacilityDesc:
+      "پر عملي پروژو کار وکړئ او د خپل مسلک لپاره رښتیني مهارتونه جوړ کړئ.",
+    airConditionedRooms: "هوا لرونکي خونې",
+    airConditionedRoomsDesc:
+      "په سړو او ارامو خونو کې زده‌کړه وکړئ چې د تمرکز او اغېزمنې زده‌کړې لپاره برابرې شوې دي.",
+
+    getInTouch: "اړیکه ونیسئ",
+    us: "له موږ سره",
+    contactDescription:
+      "زموږ د کورسونو په اړه پوښتنې لرئ؟ له پروټیک اکاډمۍ سره اړیکه ونیسئ او د خپل راتلونکي پر لور لومړی ګام واخلئ.",
+    ourLocation: "زموږ پته",
+    phone: "ټیلیفون",
+    whatsapp: "واټس‌اپ",
+    chatWhatsApp: "په واټس‌اپ له موږ سره خبرې وکړئ",
+    email: "برېښنالیک",
+    getDirections: "لارښوونې ترلاسه کړئ",
+
+    courseWebsiteDevelopment: "د وېب‌پاڼې پراختیا",
+    officeHours: "د دفتر کاري ساعتونه",
+    contactForTimings: "د اوسنیو ساعتونو لپاره له موږ سره اړیکه ونیسئ.",
+    professionalGrowthTagline: "د مسلکي ودې انسټیټیوټ",
+    mapTitle: "د پروټیک اکاډمۍ پته",
+    mapLocation: "پروټیک اکاډمۍ · کراچۍ",
+    heroImageAlt: "د پروټیک اکاډمۍ د ودانۍ دروازه",
+    footerNavigation: "د پاڼې لاندې تګلوری",
+    robotDescription: "د پروټیک اکاډمۍ د راتلونکي مصنوعي ځیرکتیا روبوټ",
+    membershipEyebrow: "غړیتوب",
+    membershipTitle: "په خپل راتلونکي کې",
+    membershipTitleAccent: "پانګونه وکړئ",
+    courseCitFullName: "د معلوماتي ټکنالوژۍ سند",
+    membershipDescription:
+      "زموږ پروګرامونه وپلټئ او هغه کورس غوره کړئ چې ستاسو مسلک ته پرمختګ ورکوي.",
+    admissionFee: "د داخلې فیس",
+    monthlyFee: "میاشتنی فیس",
+    courseFee: "د کورس فیس",
+    courseDuration: "د کورس موده",
+    courseDuration40Days: "۴۰ ورځې",
+    enrollNow: "همدا اوس نوم‌لیکنه وکړئ",
+    feeNotSpecified: "نه دی مشخص شوی",
+    notApplicable: "اړوند نه دی",
+    mainNavigation: "اصلي تګلوری",
+    selectLanguage: "ژبه وټاکئ",
+    currentLanguage: "اوسنۍ ژبه",
+    openNavigation: "د تګلارې مېنو پرانیزئ",
+    closeNavigation: "د تګلارې مېنو وتړئ",
+  },
+
+  pa: {
+    home: "ਮੁੱਖ ਪੰਨਾ",
+    about: "ਸਾਡੇ ਬਾਰੇ",
+    courses: "ਕੋਰਸ",
+    membership: "ਮੈਂਬਰਸ਼ਿਪ",
+    teachers: "ਅਧਿਆਪਕ",
+    facilities: "ਸਹੂਲਤਾਂ",
+    contact: "ਸੰਪਰਕ",
+    joinNow: "ਹੁਣੇ ਸ਼ਾਮਲ ਹੋਵੋ",
+    welcome: "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ",
+    master: "ਮੁਹਾਰਤ ਹਾਸਲ ਕਰੋ",
+    technology: "ਤਕਨਾਲੋਜੀ",
+    buildFuture: "ਆਪਣਾ ਭਵਿੱਖ ਬਣਾਓ",
+    heroDescription:
+      "ਆਪਣੀ ਕਾਮਯਾਬੀ ਲਈ ਤਿਆਰ ਕੀਤੀ ਪ੍ਰੈਕਟੀਕਲ ਸਿਖਲਾਈ, ਮਾਹਿਰਾਂ ਦੀ ਰਹਿਨੁਮਾਈ ਅਤੇ ਕਰੀਅਰ-ਕੇਂਦਰਿਤ ਕੋਰਸਾਂ ਰਾਹੀਂ ਆਧੁਨਿਕ ਤਕਨਾਲੋਜੀ ਹੁਨਰ ਸਿੱਖੋ।",
+    exploreCourses: "ਕੋਰਸ ਵੇਖੋ",
+    coursesCount: "ਕੋਰਸ",
+    expertTeachers: "ਮਾਹਿਰ ਅਧਿਆਪਕ",
+    practical: "ਪ੍ਰੈਕਟੀਕਲ ਸਿਖਲਾਈ",
+    startLearning: "ਅੱਜ ਹੀ ਸਿੱਖਣਾ ਸ਼ੁਰੂ ਕਰੋ",
+
+    aboutLabel: "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਬਾਰੇ",
+    aboutWhere: "ਜਿੱਥੇ",
+    aboutSkills: "ਹੁਨਰ",
+    aboutMeet: "ਮਿਲਦੇ ਹਨ",
+    aboutOpportunity: "ਮੌਕਿਆਂ ਨਾਲ",
+    aboutIntro:
+      "ਅਸੀਂ ਸਿਰਫ਼ ਤਕਨਾਲੋਜੀ ਨਹੀਂ ਸਿਖਾਉਂਦੇ; ਅਸੀਂ ਉਹ ਹੁਨਰ, ਭਰੋਸਾ ਅਤੇ ਤਜਰਬਾ ਤਿਆਰ ਕਰਦੇ ਹਾਂ ਜਿਸ ਦੀ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਅੱਜ ਦੀ ਡਿਜ਼ੀਟਲ ਦੁਨੀਆ ਵਿੱਚ ਕਾਮਯਾਬ ਹੋਣ ਲਈ ਲੋੜ ਹੈ।",
+    aboutDescription:
+      "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਉਹਨਾਂ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਪ੍ਰੈਕਟੀਕਲ ਅਤੇ ਕਰੀਅਰ-ਕੇਂਦਰਿਤ ਸਿਖਲਾਈ ਦਿੰਦੀ ਹੈ ਜੋ ਤਕਨਾਲੋਜੀ ਦੇ ਆਪਣੇ ਸ਼ੌਕ ਨੂੰ ਅਸਲ ਹੁਨਰਾਂ ਵਿੱਚ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹਨ।",
+    discoverMore: "ਹੋਰ ਜਾਣੋ",
+    studentsTrained: "ਸਿਖਲਾਈ ਪ੍ਰਾਪਤ ਵਿਦਿਆਰਥੀ",
+    learnBuildGrow: "ਸਿੱਖੋ। ਬਣਾਓ। ਅੱਗੇ ਵਧੋ।",
+    aboutCardDescription: "ਤਕਨਾਲੋਜੀ ਦੇ ਅਗਲੇ ਮਾਹਿਰਾਂ ਲਈ ਪ੍ਰੈਕਟੀਕਲ ਸਿੱਖਿਆ।",
+    professionalCourses: "ਪੇਸ਼ੇਵਰ ਕੋਰਸ",
+    students: "ਵਿਦਿਆਰਥੀ",
+    expertTrainers: "ਮਾਹਿਰ ਟ੍ਰੇਨਰ",
+    practicalLearning: "ਪ੍ਰੈਕਟੀਕਲ ਸਿੱਖਿਆ",
+
+    whatWeTeach: "ਅਸੀਂ ਕੀ ਸਿਖਾਉਂਦੇ ਹਾਂ",
+    our: "ਸਾਡੇ",
+    coursesTitle: "ਕੋਰਸ",
+    coursesDescription:
+      "ਵਿਦਿਆਰਥੀਆਂ ਅਤੇ ਭਵਿੱਖ ਦੇ ਪੇਸ਼ੇਵਰਾਂ ਲਈ ਤਿਆਰ ਕੀਤੇ ਉਦਯੋਗ-ਕੇਂਦਰਿਤ ਕੋਰਸਾਂ ਰਾਹੀਂ ਪ੍ਰੈਕਟੀਕਲ ਅਤੇ ਪੇਸ਼ੇਵਰ ਹੁਨਰ ਸਿੱਖੋ।",
+    learnMore: "ਹੋਰ ਜਾਣੋ",
+    courseCit: "C.I.T",
+    courseCitDesc:
+      "ਆਪਣੇ ਪੇਸ਼ੇਵਰ ਸਫ਼ਰ ਲਈ ਜ਼ਰੂਰੀ ਕੰਪਿਊਟਰ ਹੁਨਰ, ਦਫ਼ਤਰੀ ਐਪਲੀਕੇਸ਼ਨਾਂ ਅਤੇ ਡਿਜ਼ੀਟਲ ਬੁਨਿਆਦ ਸਿੱਖੋ।",
+    courseDigitalMarketing: "ਡਿਜ਼ੀਟਲ ਮਾਰਕੀਟਿੰਗ",
+    courseDigitalMarketingDesc:
+      "ਆਧੁਨਿਕ ਡਿਜ਼ੀਟਲ ਮਾਰਕੀਟਿੰਗ ਰਣਨੀਤੀਆਂ, ਸੋਸ਼ਲ ਮੀਡੀਆ ਮਾਰਕੀਟਿੰਗ, SEO ਅਤੇ ਆਨਲਾਈਨ ਕਾਰੋਬਾਰ ਦਾ ਪ੍ਰਚਾਰ ਸਿੱਖੋ।",
+    courseGraphicDesigning: "ਗ੍ਰਾਫਿਕ ਡਿਜ਼ਾਈਨਿੰਗ",
+    courseGraphicDesigningDesc:
+      "ਡਿਜ਼ੀਟਲ ਗ੍ਰਾਫਿਕਸ ਅਤੇ ਵਿਜ਼ੂਅਲ ਸਮੱਗਰੀ ਲਈ ਰਚਨਾਤਮਕ ਡਿਜ਼ਾਈਨ ਹੁਨਰ ਅਤੇ ਪੇਸ਼ੇਵਰ ਤਰੀਕੇ ਸਿੱਖੋ।",
+    courseFullStack: "ਫੁੱਲ ਸਟੈਕ ਵੈੱਬ ਵਿਕਾਸ",
+    courseFullStackDesc:
+      "ਪੂਰੀਆਂ ਅਤੇ ਆਧੁਨਿਕ ਵੈੱਬਸਾਈਟਾਂ ਅਤੇ ਵੈੱਬ ਐਪਲੀਕੇਸ਼ਨਾਂ ਬਣਾਉਣ ਲਈ ਫਰੰਟਐਂਡ ਅਤੇ ਬੈਕਐਂਡ ਤਕਨਾਲੋਜੀਆਂ ਸਿੱਖੋ।",
+    courseEcommerce: "ਈ-ਕਾਮਰਸ",
+    courseEcommerceDesc:
+      "ਆਨਲਾਈਨ ਸਟੋਰ ਬਣਾਉਣਾ, ਸੰਭਾਲਣਾ ਅਤੇ ਵਧਾਉਣਾ ਅਤੇ ਆਧੁਨਿਕ ਈ-ਕਾਮਰਸ ਕਾਰੋਬਾਰ ਦੇ ਤਰੀਕੇ ਸਿੱਖੋ।",
+    courseShopify: "ਸ਼ਾਪੀਫਾਈ",
+    courseShopifyDesc:
+      "ਸ਼ਾਪੀਫਾਈ ਪਲੇਟਫਾਰਮ ਨਾਲ ਪੇਸ਼ੇਵਰ ਆਨਲਾਈਨ ਸਟੋਰ ਬਣਾਉਣਾ ਅਤੇ ਸੰਭਾਲਣਾ ਸਿੱਖੋ।",
+    courseFrontend: "ਫਰੰਟਐਂਡ ਵੈੱਬ ਵਿਕਾਸ",
+    courseFrontendDesc:
+      "ਸੁੰਦਰ ਅਤੇ ਜਵਾਬਦੇਹ ਵੈੱਬਸਾਈਟਾਂ ਬਣਾਉਣ ਲਈ HTML, CSS, JavaScript ਅਤੇ ਆਧੁਨਿਕ ਤਰੀਕੇ ਸਿੱਖੋ।",
+    courseBackend: "ਬੈਕਐਂਡ ਵੈੱਬ ਵਿਕਾਸ",
+    courseBackendDesc:
+      "ਸ਼ਕਤੀਸ਼ਾਲੀ ਵੈੱਬ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਸਰਵਰ-ਸਾਈਡ ਵਿਕਾਸ, ਡਾਟਾਬੇਸ ਅਤੇ ਲੋੜੀਂਦੀਆਂ ਤਕਨਾਲੋਜੀਆਂ ਸਿੱਖੋ।",
+    courseAI: "ਨਕਲੀ ਬੁੱਧੀ",
+    courseAIDesc:
+      "ਨਕਲੀ ਬੁੱਧੀ ਦੇ ਸੰਕਲਪ ਜਾਣੋ ਅਤੇ ਸਿੱਖੋ ਕਿ ਆਧੁਨਿਕ AI ਤਕਨਾਲੋਜੀਆਂ ਅਸਲ ਦੁਨੀਆ ਵਿੱਚ ਕਿਵੇਂ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।",
+    courseEnglish: "ਅੰਗਰੇਜ਼ੀ ਭਾਸ਼ਾ",
+    courseEnglishDesc:
+      "ਅੰਗਰੇਜ਼ੀ ਬੋਲਣ, ਸੰਚਾਰ, ਸ਼ਬਦ-ਭੰਡਾਰ ਅਤੇ ਪੇਸ਼ੇਵਰ ਲਿਖਤ ਦੇ ਹੁਨਰ ਸੁਧਾਰੋ।",
+    courseCyberSecurity: "ਸਾਈਬਰ ਸੁਰੱਖਿਆ",
+    courseCyberSecurityDesc:
+      "ਡਿਜ਼ੀਟਲ ਸਿਸਟਮਾਂ ਅਤੇ ਜਾਣਕਾਰੀ ਦੀ ਰੱਖਿਆ ਲਈ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਬੁਨਿਆਦੀ ਅਸੂਲ ਅਤੇ ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ ਸਿੱਖੋ।",
+
+    admissionAcademy: "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ",
+    startYour: "ਆਪਣਾ",
+    techJourney: "ਤਕਨਾਲੋਜੀ ਦਾ ਸਫ਼ਰ ਸ਼ੁਰੂ ਕਰੋ",
+    admissionIntro:
+      "ਆਪਣੇ ਕਰੀਅਰ ਵੱਲ ਅਗਲਾ ਕਦਮ ਚੁੱਕੋ। ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਨਾਲ ਜੁੜੋ ਅਤੇ ਤਜਰਬੇਕਾਰ ਅਧਿਆਪਕਾਂ ਤੋਂ ਪ੍ਰੈਕਟੀਕਲ ਹੁਨਰ ਸਿੱਖੋ।",
+    practicalTraining: "ਪ੍ਰੈਕਟੀਕਲ ਸਿਖਲਾਈ",
+    practicalTrainingDesc: "ਅਸਲ ਪ੍ਰੋਜੈਕਟਾਂ ਅਤੇ ਹੱਥੀਂ ਅਭਿਆਸ ਰਾਹੀਂ ਸਿੱਖੋ।",
+    expertInstructors: "ਮਾਹਿਰ ਅਧਿਆਪਕ",
+    expertInstructorsDesc: "ਤਜਰਬੇਕਾਰ ਤਕਨਾਲੋਜੀ ਪੇਸ਼ੇਵਰਾਂ ਤੋਂ ਸਿੱਖੋ।",
+    careerFocused: "ਕਰੀਅਰ 'ਤੇ ਧਿਆਨ",
+    careerFocusedDesc: "ਅਜਿਹੇ ਹੁਨਰ ਬਣਾਓ ਜੋ ਤੁਹਾਡੇ ਪੇਸ਼ੇਵਰ ਵਿਕਾਸ ਵਿੱਚ ਮਦਦ ਕਰਨ।",
+    admissionsOpen: "ਦਾਖ਼ਲੇ ਇਸ ਵੇਲੇ ਖੁੱਲ੍ਹੇ ਹਨ",
+    admissionForm: "ਦਾਖ਼ਲਾ ਫਾਰਮ",
+    applyNow: "ਹੁਣੇ ਅਰਜ਼ੀ ਦਿਓ",
+    fullName: "ਪੂਰਾ ਨਾਮ",
+    fullNamePlaceholder: "ਆਪਣਾ ਪੂਰਾ ਨਾਮ ਲਿਖੋ",
+    fatherName: "ਪਿਤਾ ਦਾ ਨਾਮ",
+    fatherNamePlaceholder: "ਪਿਤਾ ਦਾ ਨਾਮ ਲਿਖੋ",
+    phoneNumber: "ਫ਼ੋਨ ਨੰਬਰ",
+    phonePlaceholder: "ਫ਼ੋਨ ਨੰਬਰ",
+    emailAddress: "ਈਮੇਲ ਪਤਾ",
+    emailPlaceholder: "ਤੁਹਾਡੀ ਈਮੇਲ",
+    age: "ਉਮਰ",
+    agePlaceholder: "ਆਪਣੀ ਉਮਰ ਲਿਖੋ",
+    education: "ਸਿੱਖਿਆ",
+    educationPlaceholder: "ਆਪਣੀ ਯੋਗਤਾ ਲਿਖੋ",
+    selectCourse: "ਕੋਰਸ ਚੁਣੋ",
+    chooseCourse: "ਆਪਣਾ ਕੋਰਸ ਚੁਣੋ",
+    address: "ਪਤਾ",
+    addressPlaceholder: "ਆਪਣਾ ਪੂਰਾ ਪਤਾ ਲਿਖੋ",
+    yourMessage: "ਤੁਹਾਡਾ ਸੁਨੇਹਾ",
+    messagePlaceholder: "ਆਪਣੇ ਸਿੱਖਣ ਦੇ ਟੀਚਿਆਂ ਬਾਰੇ ਦੱਸੋ...",
+    submitForm: "ਫਾਰਮ ਜਮ੍ਹਾਂ ਕਰੋ",
+    formSecurity: "ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਨਿੱਜੀ ਅਤੇ ਸੁਰੱਖਿਅਤ ਰੱਖੀ ਜਾਵੇਗੀ।",
+
+    ourInstructors: "ਸਾਡੇ ਅਧਿਆਪਕ",
+    meetOur: "ਸਾਡੇ",
+    experts: "ਮਾਹਿਰਾਂ ਨੂੰ ਮਿਲੋ",
+    teachersDescription:
+      "ਤਜਰਬੇਕਾਰ ਅਧਿਆਪਕਾਂ ਤੋਂ ਸਿੱਖੋ ਜੋ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਪ੍ਰੈਕਟੀਕਲ ਅਤੇ ਪੇਸ਼ੇਵਰ ਹੁਨਰ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਲਈ ਸਮਰਪਿਤ ਹਨ।",
+    graphicDesigner: "ਗ੍ਰਾਫਿਕ ਡਿਜ਼ਾਈਨਰ",
+    websiteDeveloper: "ਵੈੱਬਸਾਈਟ ਡਿਵੈਲਪਰ",
+    fullStackDeveloper: "ਫੁੱਲ ਸਟੈਕ ਡਿਵੈਲਪਰ",
+    digitalMarketing: "ਡਿਜ਼ੀਟਲ ਮਾਰਕੀਟਿੰਗ",
+    digitalMarketingExpert: "ਡਿਜ਼ੀਟਲ ਮਾਰਕੀਟਿੰਗ ਮਾਹਿਰ",
+
+    whyChooseUs: "ਸਾਨੂੰ ਕਿਉਂ ਚੁਣੋ",
+    facilitiesTitle: "ਸਹੂਲਤਾਂ",
+    facilitiesDescription:
+      "ਅਸੀਂ ਆਧੁਨਿਕ ਸਰੋਤਾਂ, ਪ੍ਰੈਕਟੀਕਲ ਸਿਖਲਾਈ ਅਤੇ ਮਾਹਿਰਾਂ ਦੀ ਰਹਿਨੁਮਾਈ ਨਾਲ ਪੇਸ਼ੇਵਰ ਸਿੱਖਣ ਦਾ ਮਾਹੌਲ ਦਿੰਦੇ ਹਾਂ।",
+    modernComputerLab: "ਆਧੁਨਿਕ ਕੰਪਿਊਟਰ ਲੈਬ",
+    modernComputerLabDesc:
+      "ਪੇਸ਼ੇਵਰ ਅਤੇ ਆਰਾਮਦਾਇਕ ਮਾਹੌਲ ਵਿੱਚ ਆਧੁਨਿਕ ਕੰਪਿਊਟਰਾਂ ਨਾਲ ਸਿੱਖੋ ਅਤੇ ਅਭਿਆਸ ਕਰੋ।",
+    scholarship: "ਵਜ਼ੀਫ਼ਾ",
+    scholarshipDesc:
+      "ਵਜ਼ੀਫ਼ੇ ਦੇ ਮੌਕਿਆਂ ਰਾਹੀਂ ਮਿਆਰੀ ਸਿੱਖਿਆ ਪ੍ਰਾਪਤ ਕਰੋ। ਅਸੀਂ ਹੋਣਹਾਰ ਅਤੇ ਲੋੜਵੰਦ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਕਾਮਯਾਬ ਭਵਿੱਖ ਬਣਾਉਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦੇ ਹਾਂ।",
+    comfortableClassrooms: "ਆਰਾਮਦਾਇਕ ਕਲਾਸਰੂਮ",
+    comfortableClassroomsDesc:
+      "ਧਿਆਨ ਨਾਲ ਸਿੱਖਣ ਅਤੇ ਵਿਦਿਆਰਥੀਆਂ ਦੀ ਬਿਹਤਰ ਭਾਗੀਦਾਰੀ ਲਈ ਸਾਫ਼ ਅਤੇ ਆਰਾਮਦਾਇਕ ਕਲਾਸਰੂਮ।",
+    expertInstructorsFacility: "ਮਾਹਿਰ ਅਧਿਆਪਕ",
+    expertInstructorsFacilityDesc:
+      "ਤਜਰਬੇਕਾਰ ਅਧਿਆਪਕਾਂ ਤੋਂ ਸਿੱਖੋ ਜੋ ਤੁਹਾਡੇ ਸਿੱਖਣ ਦੇ ਸਫ਼ਰ ਦੌਰਾਨ ਰਹਿਨੁਮਾਈ ਕਰਦੇ ਹਨ।",
+    practicalTrainingFacility: "ਪ੍ਰੈਕਟੀਕਲ ਸਿਖਲਾਈ",
+    practicalTrainingFacilityDesc:
+      "ਪ੍ਰੈਕਟੀਕਲ ਪ੍ਰੋਜੈਕਟਾਂ 'ਤੇ ਕੰਮ ਕਰੋ ਅਤੇ ਆਪਣੇ ਪੇਸ਼ੇਵਰ ਕਰੀਅਰ ਲਈ ਅਸਲ ਹੁਨਰ ਵਿਕਸਿਤ ਕਰੋ।",
+    airConditionedRooms: "ਏਅਰ-ਕੰਡੀਸ਼ਨਡ ਕਮਰੇ",
+    airConditionedRoomsDesc:
+      "ਧਿਆਨ ਅਤੇ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਪੜ੍ਹਾਈ ਲਈ ਬਣਾਏ ਠੰਢੇ ਅਤੇ ਆਰਾਮਦਾਇਕ ਕਮਰਿਆਂ ਵਿੱਚ ਸਿੱਖੋ।",
+
+    getInTouch: "ਸੰਪਰਕ ਕਰੋ",
+    us: "ਸਾਡੇ ਨਾਲ",
+    contactDescription:
+      "ਸਾਡੇ ਕੋਰਸਾਂ ਬਾਰੇ ਸਵਾਲ ਹਨ? ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਅਤੇ ਆਪਣੇ ਭਵਿੱਖ ਵੱਲ ਪਹਿਲਾ ਕਦਮ ਚੁੱਕੋ।",
+    ourLocation: "ਸਾਡਾ ਪਤਾ",
+    phone: "ਫ਼ੋਨ",
+    whatsapp: "ਵਟਸਐਪ",
+    chatWhatsApp: "ਵਟਸਐਪ 'ਤੇ ਸਾਡੇ ਨਾਲ ਗੱਲ ਕਰੋ",
+    email: "ਈਮੇਲ",
+    getDirections: "ਰਸਤਾ ਲੱਭੋ",
+
+    courseWebsiteDevelopment: "ਵੈੱਬਸਾਈਟ ਵਿਕਾਸ",
+    officeHours: "ਦਫ਼ਤਰ ਦੇ ਸਮੇਂ",
+    contactForTimings: "ਮੌਜੂਦਾ ਸਮੇਂ ਲਈ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।",
+    professionalGrowthTagline: "ਪੇਸ਼ੇਵਰ ਵਿਕਾਸ ਸੰਸਥਾ",
+    mapTitle: "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਦਾ ਟਿਕਾਣਾ",
+    mapLocation: "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ · ਕਰਾਚੀ",
+    heroImageAlt: "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਦੇ ਕੈਂਪਸ ਦਾ ਪ੍ਰਵੇਸ਼ ਦੁਆਰ",
+    footerNavigation: "ਫੁੱਟਰ ਨੈਵੀਗੇਸ਼ਨ",
+    robotDescription: "ਪ੍ਰੋਟੈਕ ਅਕੈਡਮੀ ਦਾ ਭਵਿੱਖਮੁਖੀ AI ਰੋਬੋਟ",
+    membershipEyebrow: "ਮੈਂਬਰਸ਼ਿਪ",
+    membershipTitle: "ਆਪਣੇ ਭਵਿੱਖ ਵਿੱਚ",
+    membershipTitleAccent: "ਨਿਵੇਸ਼ ਕਰੋ",
+    courseCitFullName: "ਇਨਫਰਮੇਸ਼ਨ ਟੈਕਨਾਲੋਜੀ ਸਰਟੀਫਿਕੇਟ",
+    membershipDescription:
+      "ਸਾਡੇ ਪ੍ਰੋਗਰਾਮ ਵੇਖੋ ਅਤੇ ਉਹ ਕੋਰਸ ਚੁਣੋ ਜੋ ਤੁਹਾਡੇ ਕਰੀਅਰ ਨੂੰ ਅੱਗੇ ਵਧਾਏ।",
+    admissionFee: "ਦਾਖ਼ਲਾ ਫੀਸ",
+    monthlyFee: "ਮਹੀਨਾਵਾਰ ਫੀਸ",
+    courseFee: "ਕੋਰਸ ਫੀਸ",
+    courseDuration: "ਕੋਰਸ ਦੀ ਮਿਆਦ",
+    courseDuration40Days: "40 ਦਿਨ",
+    enrollNow: "ਹੁਣੇ ਦਾਖ਼ਲਾ ਲਵੋ",
+    feeNotSpecified: "ਦੱਸਿਆ ਨਹੀਂ ਗਿਆ",
+    notApplicable: "ਲਾਗੂ ਨਹੀਂ",
+    mainNavigation: "ਮੁੱਖ ਨੈਵੀਗੇਸ਼ਨ",
+    selectLanguage: "ਭਾਸ਼ਾ ਚੁਣੋ",
+    currentLanguage: "ਮੌਜੂਦਾ ਭਾਸ਼ਾ",
+    openNavigation: "ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ ਖੋਲ੍ਹੋ",
+    closeNavigation: "ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ ਬੰਦ ਕਰੋ",
   },
 
   ur: {
@@ -319,9 +725,9 @@ const translations = {
     practicalTrainingFacility: "عملی تربیت",
     practicalTrainingFacilityDesc:
       "عملی پروجیکٹس پر کام کریں اور اپنے پروفیشنل کیریئر کے لیے حقیقی مہارتیں حاصل کریں۔",
-    languageLearning: "زبان سیکھنا",
-    languageLearningDesc:
-      "منظم تعلیم اور پریکٹس کے ذریعے اپنی کمیونیکیشن اور زبان کی مہارت بہتر کریں۔",
+    airConditionedRooms: "ایئر کنڈیشنڈ کمرے",
+    airConditionedRoomsDesc:
+      "توجہ اور مؤثر تعلیم کے لیے بنائے گئے ٹھنڈے اور آرام دہ کمروں میں سیکھیں۔",
 
     getInTouch: "رابطہ کریں",
     us: "ہم سے",
@@ -465,8 +871,8 @@ const translations = {
     expertInstructorsFacilityDesc: "تعلم من مدربين ذوي خبرة يقدمون التوجيه طوال رحلتك التعليمية.",
     practicalTrainingFacility: "تدريب عملي",
     practicalTrainingFacilityDesc: "اعمل على مشاريع عملية وطوّر مهارات حقيقية لمسيرتك المهنية.",
-    languageLearning: "تعلم اللغات",
-    languageLearningDesc: "حسن مهارات التواصل واللغة من خلال التعلم والممارسة المنظمة.",
+    airConditionedRooms: "غرف مكيفة",
+    airConditionedRoomsDesc: "تعلم في غرف باردة ومريحة تساعد على التركيز والدراسة بفاعلية.",
 
     getInTouch: "تواصل معنا",
     us: "بنا",
@@ -615,9 +1021,9 @@ const translations = {
     practicalTrainingFacility: "व्यावहारिक प्रशिक्षण",
     practicalTrainingFacilityDesc:
       "प्रैक्टिकल प्रोजेक्ट पर काम करें और वास्तविक दुनिया की कौशल विकसित करें।",
-    languageLearning: "भाषा सीखना",
-    languageLearningDesc:
-      "व्यवस्थित सीखने और अभ्यास के माध्यम से अपनी भाषा और संचार कौशल बेहतर करें।",
+    airConditionedRooms: "वातानुकूलित कमरे",
+    airConditionedRoomsDesc:
+      "ध्यान और प्रभावी पढ़ाई के लिए बनाए गए ठंडे और आरामदायक कमरों में सीखें।",
 
     getInTouch: "संपर्क करें",
     us: "हमसे",
@@ -761,8 +1167,8 @@ const translations = {
     expertInstructorsFacilityDesc: "অভিজ্ঞ প্রশিক্ষকদের কাছ থেকে শিখুন যারা আপনার পুরো শেখার যাত্রায় নির্দেশনা দেন।",
     practicalTrainingFacility: "ব্যবহারিক প্রশিক্ষণ",
     practicalTrainingFacilityDesc: "ব্যবহারিক প্রজেক্টে কাজ করুন এবং পেশাগত জীবনের জন্য বাস্তব দক্ষতা তৈরি করুন।",
-    languageLearning: "ভাষা শিক্ষা",
-    languageLearningDesc: "নিয়মিত শেখা ও অনুশীলনের মাধ্যমে ভাষা ও যোগাযোগ দক্ষতা উন্নত করুন।",
+    airConditionedRooms: "শীতাতপ নিয়ন্ত্রিত কক্ষ",
+    airConditionedRoomsDesc: "মনোযোগ ও কার্যকর পড়াশোনার জন্য আরামদায়ক ঠান্ডা কক্ষে শিখুন।",
 
     getInTouch: "যোগাযোগ করুন",
     us: "আমাদের সাথে",
@@ -906,8 +1312,8 @@ const translations = {
     expertInstructorsFacilityDesc: "از مدرسان باتجربه در تمام مسیر آموزشی خود راهنمایی بگیرید.",
     practicalTrainingFacility: "آموزش عملی",
     practicalTrainingFacilityDesc: "روی پروژه‌های عملی کار کنید و مهارت‌های واقعی کسب کنید.",
-    languageLearning: "یادگیری زبان",
-    languageLearningDesc: "مهارت‌های زبان و ارتباطی خود را با یادگیری و تمرین منظم بهبود دهید.",
+    airConditionedRooms: "اتاق‌های دارای تهویه مطبوع",
+    airConditionedRoomsDesc: "در اتاق‌های خنک و راحت، مناسب برای تمرکز و یادگیری مؤثر، آموزش ببینید.",
 
     getInTouch: "با ما در تماس باشید",
     us: "تماس",
@@ -1051,8 +1457,8 @@ const translations = {
     expertInstructorsFacilityDesc: "Öğrenme yolculuğunuz boyunca deneyimli eğitmenlerden rehberlik alın.",
     practicalTrainingFacility: "Pratik Eğitim",
     practicalTrainingFacilityDesc: "Pratik projeler üzerinde çalışın ve gerçek dünya becerileri geliştirin.",
-    languageLearning: "Dil Öğrenimi",
-    languageLearningDesc: "Düzenli öğrenme ve pratik ile dil ve iletişim becerilerinizi geliştirin.",
+    airConditionedRooms: "Klimalı Odalar",
+    airConditionedRoomsDesc: "Odaklanmayı ve verimli çalışmayı destekleyen serin ve konforlu odalarda öğrenin.",
 
     getInTouch: "İLETİŞİME GEÇİN",
     us: "BİZİMLE",
@@ -1196,8 +1602,8 @@ const translations = {
     expertInstructorsFacilityDesc: "Apprenez auprès d'instructeurs expérimentés qui vous accompagnent.",
     practicalTrainingFacility: "Formation pratique",
     practicalTrainingFacilityDesc: "Travaillez sur des projets pratiques et développez des compétences réelles.",
-    languageLearning: "Apprentissage des langues",
-    languageLearningDesc: "Améliorez vos compétences linguistiques et de communication grâce à la pratique.",
+    airConditionedRooms: "Salles climatisées",
+    airConditionedRoomsDesc: "Apprenez dans des salles fraîches et confortables, propices à la concentration et au travail.",
 
     getInTouch: "CONTACTEZ-NOUS",
     us: "NOUS",
@@ -1341,8 +1747,8 @@ const translations = {
     expertInstructorsFacilityDesc: "Lernen Sie von erfahrenen Ausbildern, die Sie während Ihrer Ausbildung begleiten.",
     practicalTrainingFacility: "Praktische Ausbildung",
     practicalTrainingFacilityDesc: "Arbeiten Sie an praktischen Projekten und entwickeln Sie echte Fähigkeiten.",
-    languageLearning: "Sprachenlernen",
-    languageLearningDesc: "Verbessern Sie Ihre Sprach- und Kommunikationsfähigkeiten durch Lernen und Übung.",
+    airConditionedRooms: "Klimatisierte Räume",
+    airConditionedRoomsDesc: "Lernen Sie in kühlen, komfortablen Räumen, die Konzentration und produktives Lernen fördern.",
 
     getInTouch: "KONTAKTIEREN SIE UNS",
     us: "UNS",
@@ -1486,8 +1892,8 @@ const translations = {
     expertInstructorsFacilityDesc: "Aprende de instructores experimentados que te guían durante tu aprendizaje.",
     practicalTrainingFacility: "Formación práctica",
     practicalTrainingFacilityDesc: "Trabaja en proyectos prácticos y desarrolla habilidades del mundo real.",
-    languageLearning: "Aprendizaje de idiomas",
-    languageLearningDesc: "Mejora tus habilidades lingüísticas y de comunicación mediante práctica estructurada.",
+    airConditionedRooms: "Aulas con aire acondicionado",
+    airConditionedRoomsDesc: "Aprende en aulas frescas y cómodas, pensadas para favorecer la concentración y el estudio.",
 
     getInTouch: "PONTE EN CONTACTO",
     us: "CON",
@@ -1631,8 +2037,8 @@ const translations = {
     expertInstructorsFacilityDesc: "Impara da istruttori esperti che ti guidano durante il percorso.",
     practicalTrainingFacility: "Formazione pratica",
     practicalTrainingFacilityDesc: "Lavora su progetti pratici e sviluppa competenze reali.",
-    languageLearning: "Apprendimento delle lingue",
-    languageLearningDesc: "Migliora le tue competenze linguistiche e comunicative attraverso la pratica.",
+    airConditionedRooms: "Aule climatizzate",
+    airConditionedRoomsDesc: "Impara in aule fresche e confortevoli, pensate per favorire la concentrazione e lo studio.",
 
     getInTouch: "CONTATTACI",
     us: "CON NOI",
@@ -1776,8 +2182,8 @@ const translations = {
     expertInstructorsFacilityDesc: "Aprenda com instrutores experientes que orientam sua jornada.",
     practicalTrainingFacility: "Treinamento prático",
     practicalTrainingFacilityDesc: "Trabalhe em projetos práticos e desenvolva habilidades reais.",
-    languageLearning: "Aprendizagem de idiomas",
-    languageLearningDesc: "Melhore suas habilidades linguísticas e de comunicação através da prática.",
+    airConditionedRooms: "Salas com ar-condicionado",
+    airConditionedRoomsDesc: "Aprenda em salas frescas e confortáveis, ideais para concentração e estudo produtivo.",
 
     getInTouch: "ENTRE EM CONTATO",
     us: "CONOSCO",
@@ -1916,8 +2322,8 @@ const translations = {
     expertInstructorsFacilityDesc: "向经验丰富的教师学习并获得全程指导。",
     practicalTrainingFacility: "实践培训",
     practicalTrainingFacilityDesc: "参与实践项目并培养真实世界的技能。",
-    languageLearning: "语言学习",
-    languageLearningDesc: "通过系统学习和练习提高语言与沟通能力。",
+    airConditionedRooms: "空调教室",
+    airConditionedRoomsDesc: "在凉爽舒适的教室中学习，帮助集中注意力并提升学习效率。",
 
     getInTouch: "联系我们",
     us: "我们",
@@ -2055,8 +2461,8 @@ const translations = {
     expertInstructorsFacilityDesc: "経験豊富な講師から学び、学習を通して指導を受けられます。",
     practicalTrainingFacility: "実践トレーニング",
     practicalTrainingFacilityDesc: "実践的なプロジェクトを通して現実のスキルを身につけます。",
-    languageLearning: "語学学習",
-    languageLearningDesc: "体系的な学習と練習で言語とコミュニケーション能力を高めます。",
+    airConditionedRooms: "冷房完備の教室",
+    airConditionedRoomsDesc: "集中して効率よく学べる、涼しく快適な教室で学習できます。",
 
     getInTouch: "お問い合わせ",
     us: "ください",
@@ -2195,8 +2601,8 @@ const translations = {
     expertInstructorsFacilityDesc: "경험 많은 강사에게 배우고 학습 과정에서 지도를 받으세요.",
     practicalTrainingFacility: "실무 교육",
     practicalTrainingFacilityDesc: "실제 프로젝트를 통해 현실적인 기술을 개발하세요.",
-    languageLearning: "언어 학습",
-    languageLearningDesc: "체계적인 학습과 연습을 통해 언어 및 의사소통 능력을 향상시키세요.",
+    airConditionedRooms: "에어컨이 완비된 강의실",
+    airConditionedRoomsDesc: "집중력과 효율적인 학습을 돕는 시원하고 쾌적한 강의실에서 공부하세요.",
 
     getInTouch: "연락하기",
     us: "저희에게",
@@ -2227,7 +2633,10 @@ export function LanguageProvider({ children }) {
     document.documentElement.lang = language;
   }, [language]);
 
-  const t = translations[language] || translations.en;
+  const t = {
+    ...translations.en,
+    ...(translations[language] || {}),
+  };
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t }}>
